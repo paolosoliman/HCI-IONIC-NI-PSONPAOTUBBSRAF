@@ -1,0 +1,111 @@
+/* HelpCenter.css */
+.help-center {
+    background-color: #ffe0a3; /* Main background color */
+    color: #000;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .help-center-container {
+    width: 100%;
+    height: 100%;
+    background-color: #ffe0a3; /* Updated background color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px; /* Padding to prevent elements from touching screen edges */
+    box-sizing: border-box;
+  }
+  
+  .header {
+    --background: #ffe0a3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffe0a3;
+    width: 100%;
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo-image {
+    width: 100px; /* Adjust width as needed */
+    height: auto;
+  }
+  
+  .title {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #333; /* Darker color for text contrast */
+  }
+  
+  .subtitle {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    width: 80%;
+    max-width: 400px;
+    background-color: #fff; /* White background for input */
+    color: #333;
+  }
+  
+  .search-input::placeholder {
+    color: #888; /* Lighter placeholder color */
+  }
+  
+  .search-button {
+    position: absolute;
+    margin-left: -35px;
+    font-size: 18px;
+    color: #888;
+    cursor: pointer;
+  }
+  
+  .concerns-text {
+    font-weight: bold;
+    margin: 20px 0;
+    color: #333;
+  }
+  
+  .social-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .social-icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .social-icon .icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #333;
+  }
+  
