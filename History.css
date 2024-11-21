@@ -1,0 +1,113 @@
+/* Overall container */
+.history-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #fff; /* Yellow background */
+  font-family: Arial, sans-serif;
+}
+
+/* Header Section */
+.history-header {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: #ffe0a3;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Back button */
+.back-button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: #000;
+  margin-right: 0.5rem;
+}
+
+.back-button:hover {
+  color: #555;
+}
+
+/* Header title container */
+.header-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* App Logo */
+.app-logo {
+  height: 30px;
+  width: 30px;
+}
+
+/* App Title (JOURNEY PH) */
+.app-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000;
+}
+
+/* History title */
+.history-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* History list */
+.history-list {
+  list-style: none;
+  margin: 1rem auto;
+  padding: 0;
+  width: 90%;
+  max-width: 400px;
+}
+
+.history-item {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  padding: 0.8rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.history-indicator {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #ffd966;
+  border-radius: 50%;
+  margin-right: 0.8rem;
+}
+
+.history-item:last-child {
+  margin-bottom: 0;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 600px) {
+  .history-header {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .header-title {
+    margin-top: 0.5rem;
+  }
+
+  .back-button {
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+  }
+}
